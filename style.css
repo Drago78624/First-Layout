@@ -1,0 +1,68 @@
+.parent-main{
+    width: 400px;
+    height: 400px;
+    margin-left: 320px;
+    margin-top: 100px;
+}
+.parent-one{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.parent-one > .c_1{
+    width: 68%;
+    height: 80px;
+    background-color: red;
+}
+.parent-one > .c_2{
+    width: 28%;
+    height: 80px;
+    background-color: red;
+}
+.parent-two{
+    width: 100%;
+    height: 240px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.parent-two > .c_1{
+    width: 45%;
+    height: 240px;
+    background-color: rgb(252, 195, 51);
+}
+.parent-two > .c_2{
+    width: 50%;
+    height: 240px;
+
+}
+
+.parent-two > .c_2 > .c-1{
+    width: 100%;
+    height: 115px;
+    background-color: purple;
+    margin-bottom: 8px;
+}
+.parent-two > .c_2 > .c-2{
+    width: 100%;
+    height: 115px;
+    background-color: purple;
+}
+.parent-three{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8px;
+}
+.parent-three > .c_1 , .c_3{
+    width: 28%;
+    height: 80px;
+    background-color: blue;
+}
+.parent-three > .c_2{
+    width: 38%;
+    height: 80px;
+    background-color: blue;
+}
